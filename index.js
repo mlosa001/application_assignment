@@ -1,4 +1,5 @@
 const express = require('express');
+const quotes = require('random-movie-quotes');
 const app = express();
 const port = 3000;
 
@@ -11,4 +12,6 @@ app.get('/quote', (req, res) => {
 });
 
 
-app.listen(port, () => console.log(`Awesome app listening on port ${port}!`));
+
+
+app.listen(3000, () => console.log(`Awesome app listening on port ${port}!`));
